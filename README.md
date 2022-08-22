@@ -21,9 +21,13 @@ Programa que realiza o cálculo da distância de 3 pontos em assembly.
     - extern fprintf (utilizada para escrever no arquivo)
   - Funções criadas:
     - dis3Dlm: Função que realiza o cálculo da distância, ela possui a seguinte assinatura:
-			dis3Dlm(double\* p1, double\* p2)
+
+			dis3Dlm(double *p1, double *p2)
+
 		Além disto, ela realizará o seguinte cálculo:
-			√((x1-x2)^2+(y1-y2)^2+(z1-z2)^2)
+
+		$$\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}.$$
+		
     - abrearquivo: Função que cria, escreve e fecha o arquivo, utilizando as funções externas descritas anteriormente. Lembrando que toda vez que o programa é executado o arquivo é recriado, ou seja, ele escreve apenas o resultado atual, perdendo os demais de execuções passadas.
 - Execução:
   - Montar: nasm -f elf64 main.asm
