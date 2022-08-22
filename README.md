@@ -2,7 +2,7 @@
 
 Programa que realiza o cálculo da distância de 3 pontos em assembly.
 
-_Instruções gerais:_
+## Instruções gerais:
 
 - Entradas:
   - Dois vetores, na seguinte ordem:
