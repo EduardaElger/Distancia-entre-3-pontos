@@ -1,4 +1,4 @@
-# Cálculo entre três pontos.
+# Cálculo da distância entre três pontos.
 
 Programa que realiza o cálculo da distância de 3 pontos em assembly.
 
